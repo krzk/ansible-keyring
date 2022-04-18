@@ -1,4 +1,4 @@
-PREFIX=/usr/local
+PREFIX=$(HOME)
 
 install:
 	@install -Dm755 ansible-keyring.py $(PREFIX)/bin/ansible-keyring
